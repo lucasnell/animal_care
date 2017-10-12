@@ -1,5 +1,5 @@
 
-# Protocol
+# Wasp exposure protocol
 
 1. Grab 9 (or less depending on the number of wasps available) deli containers with holes
    in the side.
