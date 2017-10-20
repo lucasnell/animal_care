@@ -43,3 +43,5 @@ ___      ||  ┛ ___   ┓
   interrupting their light cycle.
 - It's easier to count aphids on the cart that's in the growth chamber room than to try
   to do it with the pots still in the growth chamber.
+- Using the small flashlight from the greenhouse to shine a light into the pots can be
+  helpful for counting, especially for the green aphids.
