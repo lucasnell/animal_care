@@ -1,11 +1,28 @@
-# Aphid counts protocol
+# Aphid counts
 
-## Top labels
+## Protocol
+
+1. Get a fava bean plant, and cut it down so it has only 3
+  sets of leaves.
+2. Push a plastic tube down into the soil, and grab a screen and 
+  deli container (no need to put them on yet).
+3. Place two adult aphids (non-winged) of the same line on the soil 
+  inside the pot.
+4. Cover the tube with the screen and deli container.
+5. Count aphids every day.
+6. You can end when the total number of aphids drops for three 
+  consecutive days or when it falls below 80% of the maximum,
+  whichever occurs first.
+
+
+## Data sheets
+
+### Top labels
 
 - `Line`: Name of aphid line (e.g., "WI-L4")
 - `Rep`: Repetition number for the focal aphid line
 
-## Column names
+### Column names
 
 ```
         PLANT         COLUMN NAME
