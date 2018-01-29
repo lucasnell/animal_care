@@ -4,13 +4,16 @@
 
 1. Get a fava bean plant, and cut it down so it has only 3
   sets of leaves.
-2. Push a plastic tube down into the soil, and grab a screen and 
+2. Push a plastic tube down into the soil, and grab a screen and
   deli container (no need to put them on yet).
-3. Place two adult aphids (non-winged) of the same line on the soil 
+3. Label the pot with the aphid line you'll be putting in there, plus the
+  repetition number for that line.
+3. Place two adult aphids (non-winged) of the same line on the soil
   inside the pot.
 4. Cover the tube with the screen and deli container.
-5. Count aphids every day.
-6. You can end when the total number of aphids drops for three 
+5. Put the pot inside a screen "sock" and tie the top.
+6. Count aphids every day.
+6. You can end when the total number of aphids drops for three
   consecutive days or when it falls below 80% of the maximum,
   whichever occurs first.
 
@@ -51,11 +54,20 @@ ___      ||  ┛ ___   ┓
 - `date`: Date you're doing the counts. Use the format mm/dd/YY (e.g., "01/31/2018").
 - `Juv.`: Juvenile aphid counts on a given plant section
 - `Adults`: Adult aphid counts on a given plant section
+- `notes`: In here, write in numbers of aphids that are on the ground or on the wall
+  of the tube. Write them like this:
+  `40A, 60J ground; 20A wall` for 40 adults and 60 juveniles on the ground,
+  and 20 adults on the wall.
+
 
 ## Other notes:
 
-- Make sure that plenty of water remains in the trays. This keeps aphids from moving
-  between pots.
+- __Water plants once per week (or more if they seem to be wilting).__
+  Water the plants slowly along the sides of the pot without taking off the tube.
+  This is to minimize the number of aphids you're drowning.
+  Do it after counts to avoid knocking more aphids off the plants.
+- __Be cafeful to shake the pots as little as possible.__
+  This can increase aphid mortality, plus we're trying to get estimates of dispersal.
 - Try not to do the counts too late in the day (like 7 or 8 pm). This is to avoid
   interrupting their light cycle.
 - It's easier to count aphids on the cart that's in the growth chamber room than to try
