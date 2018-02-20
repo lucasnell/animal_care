@@ -2,7 +2,9 @@
 Output from HOBO loggers put into the 5th floor greenhouse and B1 growing room 
 in Birge.
 
-`greenhouse_south_raw.txt` contains an extra column that's unnecessary.
+
+Folder names coincide with the dates the loggers were retrieved.
+
 
 Files names coincide with locations:
 

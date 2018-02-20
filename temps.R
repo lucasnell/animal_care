@@ -2,7 +2,7 @@ library(tidyverse)
 library(lubridate)
 
 fdf <- data_frame(
-    files = paste0("temp_data/", c("greenhouse_experiment", "greenhouse_plants", 
+    files = paste0("temp_data/2018-02-20/", c("greenhouse_experiment", "greenhouse_plants", 
                                    "greenhouse_south", "growing_room"), ".txt"),
     loc = c("greenhouse - right room", "greenhouse - left, center", 
             "greenhouse - left, back", "B1 growing room")) %>% 
@@ -10,14 +10,16 @@ fdf <- data_frame(
            temps = map(files, function(.x) {
                read_tsv(.x, col_types = 'cddd', col_names = c('dt', 'temp', 'dew', 'rh'), 
                         skip = 1) %>% 
-                   mutate(dt = mdy_hms(dt, tz = "America/Chicago")) %>% 
+                   mutate(dt = mdy_hms(dt)) %>% 
                    select(dt, temp, rh)
            })) %>% 
     unnest() %>% 
     select(-files) %>% 
-    mutate(time = as.numeric(hour(dt)) + (as.numeric(minute(dt)) / 60))
+    mutate(time = as.numeric(hour(dt)) + (as.numeric(minute(dt)) / 60)) %>% 
+    filter(dt > mdy_hms("02/16/18 15:30:00"))
 
 source(".Rprofile")
+
 
 fdf %>% 
     ggplot(aes(dt, temp, color = time)) +
