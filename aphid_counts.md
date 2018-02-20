@@ -24,8 +24,23 @@
 
 - `Line`: Name of aphid line (e.g., "WI-L4")
 - `Rep`: Repetition number for the focal aphid line
+- `Year`: Year in which you're starting the assay
+- `Month`: Month in which you're starting the assay
 
 ### Column names
+
+- `day`: Day of the month you're doing the counts. If you pass into another month,
+  you can simply write the new day; it'll be obvious what happened.
+- `observer`: Your name
+- `W`: Watered plant. Check this box on the day you watered this plant.
+- `D`: Dying plant. Check this box if the plant is dying on that day.
+- `J`: Juvenile aphid counts on a given plant section
+- `A`: Adult aphid counts on a given plant section
+- `notes`: In here, write in numbers of aphids that are on the ground or on the wall
+  of the tube. Write them like this:
+  `40A, 60J ground; 20A wall` for 40 adults and 60 juveniles on the ground,
+  and 20 adults on the wall.
+
 
 ```
         PLANT         COLUMN NAME
@@ -50,14 +65,6 @@ ___      ||  ┛ ___   ┓
          ||  ┛
 ```
 
-- `observer`: Your name
-- `date`: Date you're doing the counts. Use the format mm/dd/YY (e.g., "01/31/2018").
-- `Juv.`: Juvenile aphid counts on a given plant section
-- `Adults`: Adult aphid counts on a given plant section
-- `notes`: In here, write in numbers of aphids that are on the ground or on the wall
-  of the tube. Write them like this:
-  `40A, 60J ground; 20A wall` for 40 adults and 60 juveniles on the ground,
-  and 20 adults on the wall.
 
 
 ## Other notes:
@@ -72,5 +79,5 @@ ___      ||  ┛ ___   ┓
   interrupting their light cycle.
 - It's easier to count aphids on the cart that's in the growth chamber room than to try
   to do it with the pots still in the growth chamber.
-- Using the small flashlight from the greenhouse to shine a light into the pots can be
+- Using the small flashlight on your cell phone to shine a light into the pots can be
   helpful for counting, especially for the green aphids.
