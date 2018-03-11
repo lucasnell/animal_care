@@ -1,8 +1,13 @@
-library(tidyverse)
-library(lubridate)
+suppressPackageStartupMessages({
+    library(tidyverse)
+    library(lubridate)
+})
 
 fdf <- data_frame(
-    files = paste0("temp_data/2018-02-20/", c("greenhouse_experiment", "greenhouse_plants", 
+    files = paste0(
+        "temp_data/2018-02-20/",
+        # "temp_data/2018-02-11/", 
+                   c("greenhouse_experiment", "greenhouse_plants", 
                                    "greenhouse_south", "growing_room"), ".txt"),
     loc = c("greenhouse - right room", "greenhouse - left, center", 
             "greenhouse - left, back", "B1 growing room")) %>% 
@@ -22,13 +27,20 @@ source(".Rprofile")
 
 
 fdf %>% 
+    filter(loc %in% c("greenhouse - right room", "greenhouse - left, back")) %>%
+    mutate(loc = recode_factor(loc, `greenhouse - right room` = "B",
+                               `greenhouse - left, back` = "A")) %>% 
     ggplot(aes(dt, temp, color = time)) +
     theme_classic() +
+    theme(strip.background = element_blank(), 
+          strip.text = element_text(size=12)) +
     geom_line() +
     facet_wrap(~ loc, nrow = 2) + 
-    ylab(expression("Temperature (" * degree * C * ")")) +
+    scale_y_continuous(expression("Temperature (" * degree * C * ")"),
+                       breaks = seq(18, 26, 4)
+                       ) +
     xlab("Time") +
-    scale_color_continuous("Time\nof day", low = 'gray90', high = 'black')
+    scale_color_continuous("Hour\nof day", low = 'gray90', high = 'black')
 
 
 fdf %>% 
