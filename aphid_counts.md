@@ -8,12 +8,13 @@
   deli container (no need to put them on yet).
 3. Label the pot with the aphid line you'll be putting in there, plus the
   repetition number for that line.
-3. Place two adult aphids (non-winged) of the same line on the soil
+4. Place two adult aphids (non-winged) of the same line on the soil
   inside the pot.
-4. Cover the tube with the screen and deli container.
-5. Put the pot inside a screen "sock" and tie the top.
-6. Count aphids every day.
-6. You can end when the total number of aphids drops for three
+5. Cover the tube with the screen and deli container.
+6. Put the pot inside a screen "sock" and tie the top.
+7. Count aphids every day.
+8. Every week, input data into `~/Dropbox/Aphid Project 2017/Lucas_traits/traits_data_entry.xlsx`.
+9. You can end when the total number of aphids drops for three
   consecutive days or when it falls below 80% of the maximum,
   whichever occurs first.
 
