@@ -12,11 +12,36 @@
   inside the pot.
 5. Cover the tube with the screen and deli container.
 6. Put the pot inside a screen "sock" and tie the top.
-7. Count aphids every day.
-8. Every week, input data into `~/Dropbox/Aphid Project 2017/Lucas_traits/traits_data_entry.xlsx`.
+7. Count aphids every day using datasheets that can be printed from
+   `~/Dropbox/Aphid Project 2017/Lucas_traits/growth_datasheets.xlsx`.
+8. Every week, input data into 
+   `~/Dropbox/Aphid Project 2017/Lucas_traits/traits_data_entry.xlsx`.
 9. You can end when the total number of aphids drops for three
   consecutive days or when it falls below 80% of the maximum,
   whichever occurs first.
+
+
+## Current repetition numbers
+
+> Updated 15 May 2018
+
+*For future replicates, let's try to even these up (so they're all at 7)*
+
+__*ONLY USE WI-L4ØA, NOT WI-L4ØB*__
+
+
+|Line          |  n_reps|
+|:-------------|-------:|
+|Clover-2017-2 |       1|
+|Clover-2017-6 |       1|
+|R10           |       7|
+|UT3           |       7|
+|WI-2016-593   |       1|
+|WI-L4         |       7|
+|WI-L4Ø        |       1|
+|WIA-5D        |       3|
+
+
 
 
 ## Data sheets
