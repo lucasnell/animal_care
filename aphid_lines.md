@@ -1,6 +1,6 @@
 # Current aphid lines
 
-Updated 11 March 2018
+Updated 25 June 2018
 
 
 | Color | Crop    | Symbiont                   | Clone         |
