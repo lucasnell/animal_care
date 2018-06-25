@@ -13,11 +13,6 @@ Updated 11 March 2018
 |       |         | *Regiella*                 | WI-2016-593   |
 |       | Clover  | *Hamiltonella* + APSE1 + X | Clover-2017-2 |
 |       |         | *Regiella*                 | Clover-2017-6 |
-|       |         | *Regiella*                 | Clover-2017-9 |
-
-
-> Note: You can let line Clover-2017-9 die out.
-> It's superfluous since we have Clover-2017-6.
 
 
 - *Hamiltonella* = *Hamiltonella defensa*
