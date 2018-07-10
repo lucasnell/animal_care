@@ -14,7 +14,7 @@
 6. Put the pot inside a screen "sock" and tie the top.
 7. Count aphids every day using datasheets that can be printed from
    `~/Dropbox/Aphid Project 2017/Lucas_traits/growth_datasheets.xlsx`.
-8. Every week, input data into 
+8. Every week, input data into
    `~/Dropbox/Aphid Project 2017/Lucas_traits/traits_data_entry.xlsx`.
 9. You can end when the total number of aphids drops for three
   consecutive days or when it falls below 80% of the maximum,
@@ -23,23 +23,25 @@
 
 ## Current repetition numbers
 
-> Updated 15 May 2018
+> Updated 10 Jul 2018
 
-*For future replicates, let's try to even these up (so they're all at 7)*
+Below, the "bad" column indicates the number of reps for that line that were
+not finished so do not count.
+The "good" column is how many reps are actually useful (i.e., total - bad).
+We want the good column to ultimately be ≥10 for each line.
 
-__*ONLY USE WI-L4ØA, NOT WI-L4ØB*__
+### Repetition number table:
 
-
-|Line          |  n_reps|
-|:-------------|-------:|
-|Clover-2017-2 |       1|
-|Clover-2017-6 |       1|
-|R10           |       7|
-|UT3           |       7|
-|WI-2016-593   |       1|
-|WI-L4         |       7|
-|WI-L4Ø        |       1|
-|WIA-5D        |       3|
+|Line          | total | bad | good |
+|:-------------|------:|----:|-----:|
+|Clover-2017-2 |     6 |   1 |    5 |
+|Clover-2017-6 |     7 |   1 |    6 |
+|R10           |     7 |   4 |    3 |
+|UT3           |     7 |   4 |    3 |
+|WI-2016-593   |     7 |   1 |    6 |
+|WI-L4         |     7 |   2 |    5 |
+|WI-L4Ø        |    10 |   1 |    9 |
+|WIA-5D        |     7 |   1 |    6 |
 
 
 
