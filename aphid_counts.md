@@ -17,8 +17,11 @@
 8. Every week, input data into
    `~/Dropbox/Aphid Project 2017/Lucas_traits/traits_data_entry.xlsx`.
 9. You can end when the total number of aphids drops for three
-  consecutive days or when it falls below 80% of the maximum,
-  whichever occurs first.
+   consecutive days.
+
+
+> Until 20 July 2018, we also would stop if aphid counts reached < 80% of the maximum
+> number of aphids.
 
 
 ## Current repetition numbers
