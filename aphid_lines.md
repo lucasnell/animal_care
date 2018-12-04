@@ -1,6 +1,6 @@
 # Current aphid lines
 
-Updated 25 June 2018
+Updated 4 Dec 2018
 
 
 | Color | Crop    | Symbiont                   | Clone         |
@@ -15,9 +15,10 @@ Updated 25 June 2018
 |       |         | *Regiella*                 | Clover-2017-6 |
 
 
-- *Hamiltonella* = *Hamiltonella defensa*
-- *Serratia* = *Serratia symbiotica*
+- *Hamiltonella* = *Hamiltonella defensa*
+- *Serratia* = *Serratia symbiotica*
 - *Regiella* = *Regiella insecticola*
 - *Rickettsia* = *Rickettsia* sp.
 - X = "X-type" (family Enterobacteriaceae)
 - APSE = bacteriophage (number indicates a particular variant)
+
