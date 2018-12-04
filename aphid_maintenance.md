@@ -25,12 +25,15 @@ These are present in room 504B.
 For more info, see <http://ipm.ucanr.edu/PMG/PESTNOTES/pn7448.html>
 
 - Allow pots to dry completely before watering again. Gnat larvae like wet soil.
-- Reduce the movement of adults from pots. We can do this by keeping all pots covered
-  until all adult gnats are dead, and by keeping the compost covered as well.
+- Reduce the movement of adults from pots.
+- Spray soapy water on dead plants before opening the net sock to kill adult gnats
+  (and aphids) faster. Then wait a day or so for everything to die before composting.
 - Add bacteria that kill gnat larvae to the soil.
   You want *Bacillus thuringiensis* subspecies *israelensis* (Bti), the kind marketed
   to control mosquitoes. Note that Bt for caterpillar control won't work.
-- Add nematodes (*Steinernema feltiae*) to the soil.
+- Add nematodes (*Steinernema feltiae*) to the soil, particularly the soil in the
+  container that is used to fill pots from. __*If adding nematodes to this soil
+  container, make sure to never let it run out of soil.*__
 
 
 
